@@ -1,0 +1,46 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  background-color: #c9b5ab;
+}
+
+header {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1rem;
+}
+
+
+img {
+  align-content: center;
+  width:100%
+}
+.def {
+  font-family: "PT Serif", serif;
+  font-size:1rem;
+}
+figure #fig-cap {
+  align-content: center;
+}
+
+ #first-p {
+  font-weight: bold;
+}
+
+h1, h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size:1.5rem;
+}
+
+#serving {
+  font-style:italic;
+}
+
+footer a:link {
+  color: #222;
+}
