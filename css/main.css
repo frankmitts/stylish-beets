@@ -4,13 +4,14 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html{
+html {
   background-color: #c9b5ab;
   font-family: "pt sans", sans-serif;
   font-size: 1rem;
   line-height: normal;
 }
-  body {
+
+body {
   font-family: "pt serif";
 }
 
@@ -97,51 +98,15 @@ article > p {
   font-weight: normal;
 }
 
+header ol {
+  list-style-type: lower-greek;
+}
 
-figure {
+.srb {
   font-style: italic;
-  text-align: center;
 }
 
-.def {
-  font-family: "PT Serif", serif;
-  font-size:1rem;
-}
-
-figure #fig-cap {
-  align-content: center;
-}
-
-#first-p {
-  font-weight: bold;
-}
-
-
-
-#serving {
-  font-style:italic;
-}
-
-dt {
-  font-weight:bolder;
-}
-
-blockquote {
-  font-size: 1.125rem;
-  font-style: italic;
+footer a {
   font-weight: normal;
-}
-
-.chris {
-  font-style: italic;
-  font-size: 0.8rem;
-}
-
-.tags {
-  list-style: circle;
-}
-
-.common {
-  list-style: lower-greek;
-
+  font-family: "pt serif";
 }
