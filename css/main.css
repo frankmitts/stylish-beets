@@ -13,20 +13,31 @@ header {
   font-size: 1rem;
 }
 
+nav ol li {
+  list-style: none;
+  color: #8f2440;
+}
 
 img {
   align-content: center;
-  width:100%
+  width:100%;
 }
+
+figure {
+  font-style: italic;
+  text-align: center;
+}
+
 .def {
   font-family: "PT Serif", serif;
   font-size:1rem;
 }
+
 figure #fig-cap {
   align-content: center;
 }
 
- #first-p {
+#first-p {
   font-weight: bold;
 }
 
@@ -44,22 +55,28 @@ h1, h2 {
 dt {
   font-weight:bolder;
 }
+
 blockquote {
   font-size: 1.125rem;
   font-style: italic;
   font-weight: normal;
 }
+
 .chris {
   font-style: italic;
   font-size: 0.8rem;
 }
 
+.tags {
+  list-style: circle;
+}
 
+.common {
+  list-style: lower-greek;
 
-a:link {
-  color: #222;
 }
 
 a:hover {
-  color: #8f2440;
+  color: #fff;
+  text-decoration: none;
 }
