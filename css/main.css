@@ -4,24 +4,99 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html {
+html{
   background-color: #c9b5ab;
-}
-
-header {
-  font-family: "PT Sans", sans-serif;
+  font-family: "pt sans", sans-serif;
   font-size: 1rem;
+  line-height: normal;
+}
+  body {
+  font-family: "pt serif";
 }
 
 nav ol li {
-  list-style: none;
+  font-size: 1.125rem;
+  list-style-type: none;
+  padding-bottom: 0.25rem;
+}
+
+a {
   color: #8f2440;
+  text-decoration: none;
+  font-family: "pt sans";
+  font-weight: bold;
+}
+
+a:hover {
+  color: #8f1622;
+  text-decoration: underline;
+}
+
+.sansserif {
+  font-family: "pt sans", sans-serif;
+}
+
+.blacklink {
+  color:#222;
+}
+
+h1, h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
+
+.test {
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+blockquote cite {
+  font-size: 0.8rem;
 }
 
 img {
   align-content: center;
   width:100%;
 }
+
+.none {
+  list-style-type: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.lowergreek {
+  list-style-type: circle;
+}
+
+dt {
+  font-weight: bold;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.grow {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+article > p {
+  font-size: 1rem;
+}
+
+.correction {
+  font-weight: normal;
+}
+
 
 figure {
   font-style: italic;
@@ -41,12 +116,7 @@ figure #fig-cap {
   font-weight: bold;
 }
 
-h1, h2 {
-  color: #3f1622;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  font-size:1.5rem;
-}
+
 
 #serving {
   font-style:italic;
@@ -74,9 +144,4 @@ blockquote {
 .common {
   list-style: lower-greek;
 
-}
-
-a:hover {
-  color: #fff;
-  text-decoration: none;
 }
