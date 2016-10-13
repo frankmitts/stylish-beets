@@ -41,6 +41,10 @@ h1, h2 {
   font-style:italic;
 }
 
-footer a:link {
+dt {
+  font-weight:bolder;
+}
+
+ a:link {
   color: #222;
 }
